@@ -10,17 +10,17 @@
 '''
 from operator import index
 
+from models import DayEntity
 # This is the UI for the Health and Wellness system
 
 from utils.input_utils import *
+from models.CalorieEntity import *
+from models.DayEntity import *
 
 import services.health_data as health_data
 
 # global dictionaries for meal and workout
 # keys are date - in string format - for now
-
-# mealTracker = {} # each value is the calorie count for the meal
-# workoutTracker = {} # each entry is the calorie count burned from the workout
 
 def get_date(input_message):
 
@@ -75,9 +75,10 @@ def add_meal():
                 else:
                     print("\n### Error - calories entered must be greater than 0 and must be an integer ###")
 
-            # add to dictionary
+            # add to db
 
-            if not health_data.add_meal(meal_date, {"item": meal_item, "calories": calories}):
+            v = Meal(meal_item, int(calories))
+            if not health_data.add_meal(meal_date, v):
                 print("\n### Error - Meal not added because a meal has already been added for the date "+ meal_date.strftime("%m/%d/%Y") + " ###\n")
             print("### Meal entry added\n")
             meal_item = "q"
@@ -121,9 +122,11 @@ def add_workout():
                 else:
                     got_value = True
 
-                #add to dictionary
+                #add to db
 
-            if not health_data.add_workout(workout_date, {"details": details, "calories": calories}):
+            v: Workout = Workout(details, int(calories))
+
+            if not health_data.add_workout(workout_date, v):
                 print("\n### Error - Workout not added because a workout has already been added for the date " + workout_date.strftime("%m/%d/%Y") + " ###\n")
             else:
                 print("### Workout entry added\n")
@@ -134,55 +137,7 @@ def search_date():
 
     search_day = get_date("\nEnter search date: ")
 
-    #initialize variables
-
-    item_list = ""
-    meal_calories = 0
-    meal_notes = "***No Meal Items or Calories for " + str(search_day) + "***"
-    meal_data = health_data.get_meal(search_day)
-
-    if meal_data is not None:
-        item_list = health_data.mealTracker[search_day]["item"]
-        meal_calories = health_data.mealTracker[search_day]["calories"]
-        meal_notes = ""
-
-
-    #get workout data
-
-    workout_calories = 0
-    workout_details = ""
-    workout_notes =  "***No workouts for " + str(search_day) + "***"
-
-    workout_data = health_data.get_workout(search_day)
-
-    if workout_data is not None:
-        workout_calories = workout_data["calories"]
-        workout_details = workout_data["details"]
-        workout_notes = ""
-
-
-    #get workout data
-
-    #calculate calorie diff
-
-    calorie_diff = meal_calories - workout_calories
-    if calorie_diff > 0:
-        calorie_diff = "+" + str(calorie_diff)
-
-
-    #print results
-
-    print("Meals: " + meal_notes)
-    print("Meal Items: ", item_list)
-    print("Meal Calories: ", meal_calories)
-    print("Meal Details: ", workout_details, "\n")
-
-    print("Workout: " + workout_notes)
-    print("Workout Details: ", workout_details)
-    print("Workout Calories: ", workout_calories, "\n")
-
-    print("Calories Difference: ",  calorie_diff, "\n")
-
+    v =  health_data.get_day(search_day)
 
 def main():
 
@@ -220,9 +175,17 @@ def main():
             print("\nSystem Exiting...")
 
             # test code - leave in
-            # print(health_data.mealTracker)
+            # print()
             # print("\n\n")
-            # print(health_data.workoutTracker)
+            # for d in health_data.entry_dates:
+            #     if len(d.__meal) > 0:
+            #         for m in d.__meal:
+            #             print(str(d.__meal))
+
+
+
+            # print(health_data.entry_dates)
+
 
         else:
             print("\n### Error - Value entered must be between 1 and 4 ###")
