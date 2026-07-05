@@ -22,8 +22,6 @@ import services.health_data as health_data
 # global dictionaries for meal and workout
 # keys are date - in string format - for now
 
-from models.EntryType import *
-
 def get_date(input_message):
 
     got_value = False
@@ -51,28 +49,20 @@ def add_meal():
 
     meal_date = get_date("\nEnter meal date: ")
 
-    #get meal item
+    #get meal items
 
     meal_item = ""
     calories = 0
-    choice = 0
+    while meal_item.upper() != "Q":
 
-    meal_list = list(MealType)
+        meal_item = input("\nEnter meal item(enter 'Q' to quit): ")
 
-    while choice != 5:
-        print("### Choose meal : ###")
-        print("1. Breakfast")
-        print("2. Lunch")
-        print("3. Dinner")
-        print("4. Snack")
-        print("5. Exit")
+        #check for blank entry
 
-        choice = get_int_range(input("Choose meal number: "), 1, 5)
+        if meal_item.strip() == "":
+            print("\n### Error - Meal item cannot be blank ###")
 
-        if choice is None:
-            print("\n### Error - meal item entered must be between 1 and 5 ###")
-        elif 1 <= choice <= 4:
-            meal_item = meal_list[choice - 1]
+        elif meal_item.upper() != "Q":
 
             got_value = False
 
@@ -85,43 +75,13 @@ def add_meal():
                 else:
                     print("\n### Error - calories entered must be greater than 0 and must be an integer ###")
 
-        elif choice == 5:
-            print("\nSystem Exiting...")
-        else:
-            print("\n### Error - meal item entered must be between 1 and 5 ###")
+            # add to db
 
-
-    # while meal_item.upper() != "Q":
-    #
-    #     meal_item = input("\nEnter meal item(enter 'Q' to quit): ")
-    #
-    #
-    #
-    #     #check for blank entry
-    #
-    #     if meal_item.strip() == "":
-    #         print("\n### Error - Meal item cannot be blank ###")
-    #
-    #     elif meal_item.upper() != "Q":
-    #
-    #         got_value = False
-    #
-    #         while not got_value:
-    #
-    #             calories = get_int(input("Enter calories: "))
-    #
-    #             if calories is not None and calories > 0:
-    #                 got_value = True
-    #             else:
-    #                 print("\n### Error - calories entered must be greater than 0 and must be an integer ###")
-    #
-    #         # add to db
-    #
-    #         v = Meal(meal_item, int(calories))
-    #         if not health_data.add_meal(meal_date, v):
-    #             print("\n### Error - Meal not added because a meal has already been added for the date "+ meal_date.strftime("%m/%d/%Y") + " ###\n")
-    #         print("### Meal entry added\n")
-    #         meal_item = "q"
+            v = Meal(meal_item, int(calories))
+            if not health_data.add_meal(meal_date, v):
+                print("\n### Error - Meal not added because a meal has already been added for the date "+ meal_date.strftime("%m/%d/%Y") + " ###\n")
+            print("### Meal entry added\n")
+            meal_item = "q"
 
 def add_workout():
 
