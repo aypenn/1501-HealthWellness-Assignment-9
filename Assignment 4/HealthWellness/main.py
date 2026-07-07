@@ -53,26 +53,32 @@ def add_meal():
 
     #get meal item
 
-    meal_item = ""
-    calories = 0
     choice = 0
-
     meal_list = list(MealType)
+    total_choices = len(meal_list) + 1
 
-    while choice != 5:
-        print("### Choose meal : ###")
-        print("1. Breakfast")
-        print("2. Lunch")
-        print("3. Dinner")
-        print("4. Snack")
-        print("5. Exit")
+    while choice != total_choices:
 
-        choice = get_int_range(input("Choose meal number: "), 1, 5)
+        num_choices = 1
+        meal_item = ""
+        calories: int = 0
+        choice = 0
+        print("### Choose meal: ###")
+
+        for m in meal_list:
+            print(str(num_choices) + ". " + str(m))
+            num_choices += 1
+
+        print(str(num_choices) + ". Exit")
+
+        choice = get_int_range(input("Choose meal number: "), 1, total_choices)
 
         if choice is None:
-            print("\n### Error - meal item entered must be between 1 and 5 ###")
-        elif 1 <= choice <= 4:
-            meal_item = meal_list[choice - 1]
+            print("\n### Error - meal item entered must be between 1 and " + str(total_choices) + " ###")
+        elif 1 <= choice <= (total_choices - 1):
+            meal_item = str(meal_list[choice - 1])
+
+            # print("meal_item = " + meal_item)
 
             got_value = False
 
@@ -85,7 +91,14 @@ def add_meal():
                 else:
                     print("\n### Error - calories entered must be greater than 0 and must be an integer ###")
 
-        elif choice == 5:
+            # add to db
+
+            v = Meal(meal_item, calories)
+            if not health_data.add_meal(meal_date, v):
+                print("\n### Error - Meal not added because a meal has already been added for the date "+ meal_date.strftime("%m/%d/%Y") + " ###\n")
+            print("### Meal entry added\n")
+
+        elif choice == total_choices:
             print("\nSystem Exiting...")
         else:
             print("\n### Error - meal item entered must be between 1 and 5 ###")
@@ -129,23 +142,37 @@ def add_workout():
 
     workout_date = get_date("\nEnter workout date: ")
 
-    workout_item = ""
-    workout_calories = 0
 
     #get work out detail and calories
 
-    details = ""
-    calories = 0
+    choice = 0
+    workout_list = list(WorkoutType)
+    total_choices = len(workout_list) + 1
 
-    while details.strip() == "":
+    while choice != total_choices:
 
-        details = input("\nEnter workout details: ")
+        num_choices = 1
+        workout_item = ""
+        calories: int = 0
+        choice = 0
 
-        if details.strip() == "":
+        print("### Choose workout: ###")
 
-            print("\n### Error - Workout details cannot be blank ###")
+        for w in workout_list:
+            print(str(num_choices) + ". " + str(w))
+            num_choices += 1
 
-        else:
+        print(str(num_choices) + ". Exit")
+
+        choice = get_int_range(input("\nEnter workout number: "),  1, total_choices)
+
+        if choice is None:
+            print("\n### Error - workout number entered must be between 1 and " + str(total_choices) + " ###")
+        elif 1 <= choice <= (total_choices - 1):
+
+            workout_item = str(workout_list[choice - 1])
+
+            # print("workout_item = " + workout_item)
 
             got_value = False
 
@@ -153,7 +180,7 @@ def add_workout():
 
                 calories = get_int(input("Enter calories: "))
 
-                print("calories = " + str(calories))
+                # print("calories = " + str(calories))
                 # if calories is not None and calories > 0:
 
 
@@ -164,12 +191,60 @@ def add_workout():
 
                 #add to db
 
-            v: Workout = Workout(details, int(calories))
+            v: Workout = Workout(workout_item, calories)
 
             if not health_data.add_workout(workout_date, v):
                 print("\n### Error - Workout not added because a workout has already been added for the date " + workout_date.strftime("%m/%d/%Y") + " ###\n")
             else:
                 print("### Workout entry added\n")
+
+# def add_workout():
+#
+#     # get work out date
+#
+#     workout_date = get_date("\nEnter workout date: ")
+#
+#     workout_item = ""
+#     workout_calories = 0
+#
+#     #get work out detail and calories
+#
+#     details = ""
+#     calories = 0
+#
+#     while details.strip() == "":
+#
+#         details = input("\nEnter workout details: ")
+#
+#         if details.strip() == "":
+#
+#             print("\n### Error - Workout details cannot be blank ###")
+#
+#         else:
+#
+#             got_value = False
+#
+#             while not got_value:
+#
+#                 calories = get_int(input("Enter calories: "))
+#
+#                 print("calories = " + str(calories))
+#                 # if calories is not None and calories > 0:
+#
+#
+#                 if calories is None or calories < 0:
+#                     print("\n### Error - calories entered must be greater than 0 and must be an integer ###")
+#                 else:
+#                     got_value = True
+#
+#                 #add to db
+#
+#             v: Workout = Workout(details, int(calories))
+#
+#             if not health_data.add_workout(workout_date, v):
+#                 print("\n### Error - Workout not added because a workout has already been added for the date " + workout_date.strftime("%m/%d/%Y") + " ###\n")
+#             else:
+#                 print("### Workout entry added\n")
 
 def search_date():
 
