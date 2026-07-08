@@ -15,8 +15,8 @@ class Meal(HealthEntry):
     # def __str__(self):
     #     return "Meal/Item: " + self.__meal_item + ", Calories: " + str(self.__calories)
 
-    def calories(self) -> int:
-        return self.calories()
+    # def calories(self) -> int:
+    #     return self.calories()
 
 
 class Workout(HealthEntry):
@@ -35,5 +35,5 @@ class Workout(HealthEntry):
     # def __str__(self):
     #     return "Workout: " + self.__workout_item + ", Calories: " + str(self.__calories)
 
-    def calories(self) -> int:
-        return self.calories()
+    # def calories(self) -> int:
+    #     return self.calories()

@@ -252,7 +252,14 @@ def search_date():
 
     search_day = get_date("\nEnter search date: ")
 
-    v =  health_data.get_day(search_day)
+    v: DayEntity | None =  health_data.get_day(search_day)
+
+
+    print("v = " + str(v))
+
+
+
+
 
 def main():
 
