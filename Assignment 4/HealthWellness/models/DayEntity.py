@@ -62,7 +62,6 @@ class DayEntity:
         net_calories = 0
         if len(self.__meal) > 0:
             for meal in self.__meal:
-                print ("meal = ", meal)
                 val += "\t" + str(meal) + "\n"
                 net_calories += meal.calories()
         else:
