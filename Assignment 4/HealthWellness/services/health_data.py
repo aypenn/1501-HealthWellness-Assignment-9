@@ -51,13 +51,3 @@ def add_workout(workout_date: date | None, workout:Workout) -> bool:
         return True
         v.add_workout(workout)
         return True
-
-
-# def get_workout(workout_date: date | None) -> dict | None:
-#     if workout_date is None or workout_date not in workoutTracker:
-#         return None
-#     else:
-#         details = workoutTracker[workout_date]["details"]
-#         calories = workoutTracker[workout_date]["calories"]
-#         return {"details": details, "calories": calories}
-
