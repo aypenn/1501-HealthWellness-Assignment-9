@@ -38,3 +38,4 @@ def get_valid_date(date_str : str) -> date | None:
         # then parse as the other
 
     return valid_date
+

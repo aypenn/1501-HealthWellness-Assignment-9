@@ -11,6 +11,7 @@
 from operator import index
 
 from models import DayEntity
+from datetime import datetime
 # This is the UI for the Health and Wellness system
 
 from utils.input_utils import *
@@ -260,9 +261,17 @@ def search_date():
 
     search_day = get_date("\nEnter search date: ")
 
-    v: DayEntity | None =  health_data.get_day(search_day)
+    #print("Search Date = ", search_day)
 
-    print(str(v))
+    v: DayEntity | None = health_data.get_day(search_day)
+
+    if v is not None:
+
+        print(str(v))
+
+    else:
+
+        print("\nNo entries for this search date\n")
 
 
 def main():
@@ -307,8 +316,6 @@ def main():
             #     if len(d.__meal) > 0:
             #         for m in d.__meal:
             #             print(str(d.__meal))
-
-
 
             # print(health_data.entry_dates)
 
