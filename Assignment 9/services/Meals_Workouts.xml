@@ -1,0 +1,696 @@
+<?xml version="1.0" ?>
+<meal_workouts>
+	<meal date="11/03/2025">
+		<description>Oatmeal + berries</description>
+		<calories>320</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="11/03/2025">
+		<description>Turkey sandwich</description>
+		<calories>540</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/03/2025">
+		<description>Chicken stir-fry</description>
+		<calories>720</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/03/2025">
+		<description>Walking - 20 min</description>
+		<calories>90</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="11/03/2025">
+		<description>Light strength training - 25 min</description>
+		<calories>320</calories>
+		<workout_type>Strength</workout_type>
+	</workout>
+	<meal date="11/05/2025">
+		<description>Chicken caesar salad</description>
+		<calories>480</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/05/2025">
+		<description>Salmon + rice</description>
+		<calories>760</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/05/2025">
+		<description>Walking - 30 min</description>
+		<calories>130</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="11/07/2025">
+		<description>Burrito bowl</description>
+		<calories>650</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/07/2025">
+		<description>Greek yogurt</description>
+		<calories>180</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="11/07/2025">
+		<description>Spaghetti + meat sauce</description>
+		<calories>820</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/07/2025">
+		<description>Walking - 40 min</description>
+		<calories>170</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="11/07/2025">
+		<description>Bike cardio - 30 min</description>
+		<calories>335</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="11/09/2025">
+		<description>Eggs + toast</description>
+		<calories>410</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="11/09/2025">
+		<description>Soup + bread</description>
+		<calories>520</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/09/2025">
+		<description>Protein bar</description>
+		<calories>220</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="11/09/2025">
+		<description>Tacos</description>
+		<calories>780</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/09/2025">
+		<description>Walking - 50 min</description>
+		<calories>210</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="11/12/2025">
+		<description>Smoothie (banana + peanut butter)</description>
+		<calories>450</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="11/12/2025">
+		<description>Chicken wrap</description>
+		<calories>560</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/12/2025">
+		<description>Steak + potatoes</description>
+		<calories>900</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/12/2025">
+		<description>Walking - 60 min</description>
+		<calories>250</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="11/12/2025">
+		<description>Group fitness class - 45 min</description>
+		<calories>435</calories>
+		<workout_type>Group Fitness Class</workout_type>
+	</workout>
+	<meal date="11/14/2025">
+		<description>Oatmeal + berries</description>
+		<calories>320</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="11/14/2025">
+		<description>Turkey sandwich</description>
+		<calories>540</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/14/2025">
+		<description>Chicken stir-fry</description>
+		<calories>720</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/14/2025">
+		<description>Walking - 20 min</description>
+		<calories>90</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="11/16/2025">
+		<description>Chicken caesar salad</description>
+		<calories>480</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/16/2025">
+		<description>Salmon + rice</description>
+		<calories>760</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/16/2025">
+		<description>Walking - 30 min</description>
+		<calories>130</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="11/16/2025">
+		<description>Yoga / stretching - 30 min</description>
+		<calories>400</calories>
+		<workout_type>Flexibility</workout_type>
+	</workout>
+	<meal date="11/18/2025">
+		<description>Burrito bowl</description>
+		<calories>650</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/18/2025">
+		<description>Greek yogurt</description>
+		<calories>180</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="11/18/2025">
+		<description>Spaghetti + meat sauce</description>
+		<calories>820</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/18/2025">
+		<description>Walking - 40 min</description>
+		<calories>170</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="11/21/2025">
+		<description>Eggs + toast</description>
+		<calories>410</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="11/21/2025">
+		<description>Soup + bread</description>
+		<calories>520</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/21/2025">
+		<description>Protein bar</description>
+		<calories>220</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="11/21/2025">
+		<description>Tacos</description>
+		<calories>780</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/21/2025">
+		<description>Walking - 50 min</description>
+		<calories>210</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="11/21/2025">
+		<description>HIIT intervals - 20 min</description>
+		<calories>680</calories>
+		<workout_type>High Intensity Interval</workout_type>
+	</workout>
+	<meal date="11/24/2025">
+		<description>Smoothie (banana + peanut butter)</description>
+		<calories>450</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="11/24/2025">
+		<description>Chicken wrap</description>
+		<calories>560</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="11/24/2025">
+		<description>Steak + potatoes</description>
+		<calories>900</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="11/24/2025">
+		<description>Walking - 60 min</description>
+		<calories>250</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="12/01/2025">
+		<description>Oatmeal + berries</description>
+		<calories>320</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="12/01/2025">
+		<description>Turkey sandwich</description>
+		<calories>540</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/01/2025">
+		<description>Chicken stir-fry</description>
+		<calories>720</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/01/2025">
+		<description>Walking - 20 min</description>
+		<calories>90</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="12/01/2025">
+		<description>Light strength training - 25 min</description>
+		<calories>320</calories>
+		<workout_type>Strength</workout_type>
+	</workout>
+	<meal date="12/03/2025">
+		<description>Chicken caesar salad</description>
+		<calories>480</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/03/2025">
+		<description>Salmon + rice</description>
+		<calories>760</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/03/2025">
+		<description>Walking - 30 min</description>
+		<calories>130</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="12/05/2025">
+		<description>Burrito bowl</description>
+		<calories>650</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/05/2025">
+		<description>Greek yogurt</description>
+		<calories>180</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="12/05/2025">
+		<description>Spaghetti + meat sauce</description>
+		<calories>820</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/05/2025">
+		<description>Walking - 40 min</description>
+		<calories>170</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="12/05/2025">
+		<description>Bike cardio - 30 min</description>
+		<calories>335</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="12/08/2025">
+		<description>Eggs + toast</description>
+		<calories>410</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="12/08/2025">
+		<description>Soup + bread</description>
+		<calories>520</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/08/2025">
+		<description>Protein bar</description>
+		<calories>220</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="12/08/2025">
+		<description>Tacos</description>
+		<calories>780</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/08/2025">
+		<description>Walking - 50 min</description>
+		<calories>210</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="12/10/2025">
+		<description>Smoothie (banana + peanut butter)</description>
+		<calories>450</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="12/10/2025">
+		<description>Chicken wrap</description>
+		<calories>560</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/10/2025">
+		<description>Steak + potatoes</description>
+		<calories>900</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/10/2025">
+		<description>Walking - 60 min</description>
+		<calories>250</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="12/10/2025">
+		<description>Group fitness class - 45 min</description>
+		<calories>435</calories>
+		<workout_type>Group Fitness Class</workout_type>
+	</workout>
+	<meal date="12/13/2025">
+		<description>Oatmeal + berries</description>
+		<calories>320</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="12/13/2025">
+		<description>Turkey sandwich</description>
+		<calories>540</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/13/2025">
+		<description>Chicken stir-fry</description>
+		<calories>720</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/13/2025">
+		<description>Walking - 20 min</description>
+		<calories>90</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="12/16/2025">
+		<description>Chicken caesar salad</description>
+		<calories>480</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/16/2025">
+		<description>Salmon + rice</description>
+		<calories>760</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/16/2025">
+		<description>Walking - 30 min</description>
+		<calories>130</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="12/16/2025">
+		<description>Yoga / stretching - 30 min</description>
+		<calories>400</calories>
+		<workout_type>Flexibility</workout_type>
+	</workout>
+	<meal date="12/19/2025">
+		<description>Burrito bowl</description>
+		<calories>650</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/19/2025">
+		<description>Greek yogurt</description>
+		<calories>180</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="12/19/2025">
+		<description>Spaghetti + meat sauce</description>
+		<calories>820</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/19/2025">
+		<description>Walking - 40 min</description>
+		<calories>170</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="12/22/2025">
+		<description>Eggs + toast</description>
+		<calories>410</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="12/22/2025">
+		<description>Soup + bread</description>
+		<calories>520</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/22/2025">
+		<description>Protein bar</description>
+		<calories>220</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="12/22/2025">
+		<description>Tacos</description>
+		<calories>780</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/22/2025">
+		
+		<description>Walking - 50 min</description>
+		<calories>210</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="12/22/2025">
+		
+		<description>HIIT intervals - 20 min</description>
+		<calories>680</calories>
+		<workout_type>High Intensity Interval</workout_type>
+	</workout>
+	<meal date="12/29/2025">
+		<description>Smoothie (banana + peanut butter)</description>
+		<calories>450</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="12/29/2025">
+		<description>Chicken wrap</description>
+		<calories>560</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="12/29/2025">
+		<description>Steak + potatoes</description>
+		<calories>900</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="12/29/2025">
+		
+		<description>Walking - 60 min</description>
+		<calories>250</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="01/02/2026">
+		<description>Oatmeal + berries</description>
+		<calories>320</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="01/02/2026">
+		<description>Turkey sandwich</description>
+		<calories>540</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/02/2026">
+		<description>Chicken stir-fry</description>
+		<calories>720</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/02/2026">
+		
+		<description>Walking - 20 min</description>
+		<calories>90</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="01/02/2026">
+		
+		<description>Light strength training - 25 min</description>
+		<calories>320</calories>
+		<workout_type>Strength</workout_type>
+	</workout>
+	<meal date="01/03/2026">
+		<description>Chicken caesar salad</description>
+		<calories>480</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/03/2026">
+		<description>Salmon + rice</description>
+		<calories>760</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/03/2026">
+		
+		<description>Walking - 30 min</description>
+		<calories>130</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="01/05/2026">
+		<description>Burrito bowl</description>
+		<calories>650</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/05/2026">
+		<description>Greek yogurt</description>
+		<calories>180</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="01/05/2026">
+		<description>Spaghetti + meat sauce</description>
+		<calories>820</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/05/2026">
+		
+		<description>Walking - 40 min</description>
+		<calories>170</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="01/05/2026">
+		
+		<description>Bike cardio - 30 min</description>
+		<calories>335</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="01/07/2026">
+		<description>Eggs + toast</description>
+		<calories>410</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="01/07/2026">
+		<description>Soup + bread</description>
+		<calories>520</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/07/2026">
+		<description>Protein bar</description>
+		<calories>220</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="01/07/2026">
+		<description>Tacos</description>
+		<calories>780</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/07/2026">
+		
+		<description>Walking - 50 min</description>
+		<calories>210</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="01/09/2026">
+		<description>Smoothie (banana + peanut butter)</description>
+		<calories>450</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="01/09/2026">
+		<description>Chicken wrap</description>
+		<calories>560</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/09/2026">
+		<description>Steak + potatoes</description>
+		<calories>900</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/09/2026">
+		
+		<description>Walking - 60 min</description>
+		<calories>250</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="01/09/2026">
+		
+		<description>Group fitness class - 45 min</description>
+		<calories>435</calories>
+		<workout_type>Group Fitness Class</workout_type>
+	</workout>
+	<meal date="01/12/2026">
+		<description>Oatmeal + berries</description>
+		<calories>320</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="01/12/2026">
+		<description>Turkey sandwich</description>
+		<calories>540</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/12/2026">
+		<description>Chicken stir-fry</description>
+		<calories>720</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/12/2026">
+		
+		<description>Walking - 20 min</description>
+		<calories>90</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="01/14/2026">
+		<description>Chicken caesar salad</description>
+		<calories>480</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/14/2026">
+		<description>Salmon + rice</description>
+		<calories>760</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/14/2026">
+		
+		<description>Walking - 30 min</description>
+		<calories>130</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="01/14/2026">
+		
+		<description>Yoga / stretching - 30 min</description>
+		<calories>400</calories>
+		<workout_type>Flexibility</workout_type>
+	</workout>
+	<meal date="01/18/2026">
+		<description>Burrito bowl</description>
+		<calories>650</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/18/2026">
+		<description>Greek yogurt</description>
+		<calories>180</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="01/18/2026">
+		<description>Spaghetti + meat sauce</description>
+		<calories>820</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/18/2026">
+		
+		<description>Walking - 40 min</description>
+		<calories>170</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<meal date="01/21/2026">
+		<description>Eggs + toast</description>
+		<calories>410</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="01/21/2026">
+		<description>Soup + bread</description>
+		<calories>520</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/21/2026">
+		<description>Protein bar</description>
+		<calories>220</calories>
+		<meal_type>Snack</meal_type>
+	</meal>
+	<meal date="01/21/2026">
+		<description>Tacos</description>
+		<calories>780</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/21/2026">
+		
+		<description>Walking - 50 min</description>
+		<calories>210</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+	<workout date="01/21/2026">
+		
+		<description>HIIT intervals - 20 min</description>
+		<calories>680</calories>
+		<workout_type>High Intensity Interval</workout_type>
+	</workout>
+	<meal date="01/27/2026">
+		<description>Smoothie (banana + peanut butter)</description>
+		<calories>450</calories>
+		<meal_type>Breakfast</meal_type>
+	</meal>
+	<meal date="01/27/2026">
+		<description>Chicken wrap</description>
+		<calories>560</calories>
+		<meal_type>Lunch</meal_type>
+	</meal>
+	<meal date="01/27/2026">
+		<description>Steak + potatoes</description>
+		<calories>900</calories>
+		<meal_type>Dinner</meal_type>
+	</meal>
+	<workout date="01/27/2026">
+		
+		<description>Walking - 60 min</description>
+		<calories>250</calories>
+		<workout_type>Cardio</workout_type>
+	</workout>
+</meal_workouts>
