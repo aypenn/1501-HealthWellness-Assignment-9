@@ -1,0 +1,887 @@
+[
+    {
+        "date": "11/03/2025",
+        "meals": [
+            {
+                "description": "Oatmeal + berries",
+                "calories": 320,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Turkey sandwich",
+                "calories": 540,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Chicken stir-fry",
+                "calories": 720,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 20 min",
+                "calories": 90,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Light strength training - 25 min",
+                "calories": 320,
+                "workout_type": "Strength"
+            }
+        ]
+    },
+    {
+        "date": "11/05/2025",
+        "meals": [
+            {
+                "description": "Chicken caesar salad",
+                "calories": 480,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Salmon + rice",
+                "calories": 760,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 30 min",
+                "calories": 130,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "11/07/2025",
+        "meals": [
+            {
+                "description": "Burrito bowl",
+                "calories": 650,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Greek yogurt",
+                "calories": 180,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Spaghetti + meat sauce",
+                "calories": 820,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 40 min",
+                "calories": 170,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Bike cardio - 30 min",
+                "calories": 335,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "11/09/2025",
+        "meals": [
+            {
+                "description": "Eggs + toast",
+                "calories": 410,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Soup + bread",
+                "calories": 520,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Protein bar",
+                "calories": 220,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Tacos",
+                "calories": 780,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 50 min",
+                "calories": 210,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "11/12/2025",
+        "meals": [
+            {
+                "description": "Smoothie (banana + peanut butter)",
+                "calories": 450,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Chicken wrap",
+                "calories": 560,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Steak + potatoes",
+                "calories": 900,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 60 min",
+                "calories": 250,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Group fitness class - 45 min",
+                "calories": 435,
+                "workout_type": "Group Fitness Class"
+            }
+        ]
+    },
+    {
+        "date": "11/14/2025",
+        "meals": [
+            {
+                "description": "Oatmeal + berries",
+                "calories": 320,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Turkey sandwich",
+                "calories": 540,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Chicken stir-fry",
+                "calories": 720,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 20 min",
+                "calories": 90,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "11/16/2025",
+        "meals": [
+            {
+                "description": "Chicken caesar salad",
+                "calories": 480,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Salmon + rice",
+                "calories": 760,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 30 min",
+                "calories": 130,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Yoga / stretching - 30 min",
+                "calories": 400,
+                "workout_type": "Flexibility"
+            }
+        ]
+    },
+    {
+        "date": "11/18/2025",
+        "meals": [
+            {
+                "description": "Burrito bowl",
+                "calories": 650,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Greek yogurt",
+                "calories": 180,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Spaghetti + meat sauce",
+                "calories": 820,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 40 min",
+                "calories": 170,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "11/21/2025",
+        "meals": [
+            {
+                "description": "Eggs + toast",
+                "calories": 410,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Soup + bread",
+                "calories": 520,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Protein bar",
+                "calories": 220,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Tacos",
+                "calories": 780,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 50 min",
+                "calories": 210,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "HIIT intervals - 20 min",
+                "calories": 680,
+                "workout_type": "High Intensity Interval"
+            }
+        ]
+    },
+    {
+        "date": "11/24/2025",
+        "meals": [
+            {
+                "description": "Smoothie (banana + peanut butter)",
+                "calories": 450,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Chicken wrap",
+                "calories": 560,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Steak + potatoes",
+                "calories": 900,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 60 min",
+                "calories": 250,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "12/01/2025",
+        "meals": [
+            {
+                "description": "Oatmeal + berries",
+                "calories": 320,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Turkey sandwich",
+                "calories": 540,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Chicken stir-fry",
+                "calories": 720,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 20 min",
+                "calories": 90,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Light strength training - 25 min",
+                "calories": 320,
+                "workout_type": "Strength"
+            }
+        ]
+    },
+    {
+        "date": "12/03/2025",
+        "meals": [
+            {
+                "description": "Chicken caesar salad",
+                "calories": 480,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Salmon + rice",
+                "calories": 760,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 30 min",
+                "calories": 130,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "12/05/2025",
+        "meals": [
+            {
+                "description": "Burrito bowl",
+                "calories": 650,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Greek yogurt",
+                "calories": 180,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Spaghetti + meat sauce",
+                "calories": 820,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 40 min",
+                "calories": 170,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Bike cardio - 30 min",
+                "calories": 335,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "12/08/2025",
+        "meals": [
+            {
+                "description": "Eggs + toast",
+                "calories": 410,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Soup + bread",
+                "calories": 520,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Protein bar",
+                "calories": 220,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Tacos",
+                "calories": 780,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 50 min",
+                "calories": 210,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "12/10/2025",
+        "meals": [
+            {
+                "description": "Smoothie (banana + peanut butter)",
+                "calories": 450,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Chicken wrap",
+                "calories": 560,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Steak + potatoes",
+                "calories": 900,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 60 min",
+                "calories": 250,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Group fitness class - 45 min",
+                "calories": 435,
+                "workout_type": "Group Fitness Class"
+            }
+        ]
+    },
+    {
+        "date": "12/13/2025",
+        "meals": [
+            {
+                "description": "Oatmeal + berries",
+                "calories": 320,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Turkey sandwich",
+                "calories": 540,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Chicken stir-fry",
+                "calories": 720,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 20 min",
+                "calories": 90,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "12/16/2025",
+        "meals": [
+            {
+                "description": "Chicken caesar salad",
+                "calories": 480,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Salmon + rice",
+                "calories": 760,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 30 min",
+                "calories": 130,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Yoga / stretching - 30 min",
+                "calories": 400,
+                "workout_type": "Flexibility"
+            }
+        ]
+    },
+    {
+        "date": "12/19/2025",
+        "meals": [
+            {
+                "description": "Burrito bowl",
+                "calories": 650,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Greek yogurt",
+                "calories": 180,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Spaghetti + meat sauce",
+                "calories": 820,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 40 min",
+                "calories": 170,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "12/22/2025",
+        "meals": [
+            {
+                "description": "Eggs + toast",
+                "calories": 410,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Soup + bread",
+                "calories": 520,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Protein bar",
+                "calories": 220,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Tacos",
+                "calories": 780,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 50 min",
+                "calories": 210,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "HIIT intervals - 20 min",
+                "calories": 680,
+                "workout_type": "High Intensity Interval"
+            }
+        ]
+    },
+    {
+        "date": "12/29/2025",
+        "meals": [
+            {
+                "description": "Smoothie (banana + peanut butter)",
+                "calories": 450,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Chicken wrap",
+                "calories": 560,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Steak + potatoes",
+                "calories": 900,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 60 min",
+                "calories": 250,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "01/02/2026",
+        "meals": [
+            {
+                "description": "Oatmeal + berries",
+                "calories": 320,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Turkey sandwich",
+                "calories": 540,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Chicken stir-fry",
+                "calories": 720,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 20 min",
+                "calories": 90,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Light strength training - 25 min",
+                "calories": 320,
+                "workout_type": "Strength"
+            }
+        ]
+    },
+    {
+        "date": "01/03/2026",
+        "meals": [
+            {
+                "description": "Chicken caesar salad",
+                "calories": 480,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Salmon + rice",
+                "calories": 760,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 30 min",
+                "calories": 130,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "01/05/2026",
+        "meals": [
+            {
+                "description": "Burrito bowl",
+                "calories": 650,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Greek yogurt",
+                "calories": 180,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Spaghetti + meat sauce",
+                "calories": 820,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 40 min",
+                "calories": 170,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Bike cardio - 30 min",
+                "calories": 335,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "01/07/2026",
+        "meals": [
+            {
+                "description": "Eggs + toast",
+                "calories": 410,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Soup + bread",
+                "calories": 520,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Protein bar",
+                "calories": 220,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Tacos",
+                "calories": 780,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 50 min",
+                "calories": 210,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "01/09/2026",
+        "meals": [
+            {
+                "description": "Smoothie (banana + peanut butter)",
+                "calories": 450,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Chicken wrap",
+                "calories": 560,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Steak + potatoes",
+                "calories": 900,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 60 min",
+                "calories": 250,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Group fitness class - 45 min",
+                "calories": 435,
+                "workout_type": "Group Fitness Class"
+            }
+        ]
+    },
+    {
+        "date": "01/12/2026",
+        "meals": [
+            {
+                "description": "Oatmeal + berries",
+                "calories": 320,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Turkey sandwich",
+                "calories": 540,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Chicken stir-fry",
+                "calories": 720,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 20 min",
+                "calories": 90,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "01/14/2026",
+        "meals": [
+            {
+                "description": "Chicken caesar salad",
+                "calories": 480,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Salmon + rice",
+                "calories": 760,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 30 min",
+                "calories": 130,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "Yoga / stretching - 30 min",
+                "calories": 400,
+                "workout_type": "Flexibility"
+            }
+        ]
+    },
+    {
+        "date": "01/18/2026",
+        "meals": [
+            {
+                "description": "Burrito bowl",
+                "calories": 650,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Greek yogurt",
+                "calories": 180,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Spaghetti + meat sauce",
+                "calories": 820,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 40 min",
+                "calories": 170,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "01/21/2026",
+        "meals": [
+            {
+                "description": "Eggs + toast",
+                "calories": 410,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Soup + bread",
+                "calories": 520,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Protein bar",
+                "calories": 220,
+                "meal_type": "Snack"
+            },
+            {
+                "description": "Tacos",
+                "calories": 780,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 50 min",
+                "calories": 210,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "HIIT intervals - 20 min",
+                "calories": 680,
+                "workout_type": "High Intensity Interval"
+            }
+        ]
+    },
+    {
+        "date": "01/27/2026",
+        "meals": [
+            {
+                "description": "Smoothie (banana + peanut butter)",
+                "calories": 450,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "Chicken wrap",
+                "calories": 560,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "Steak + potatoes",
+                "calories": 900,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "Walking - 60 min",
+                "calories": 250,
+                "workout_type": "Cardio"
+            }
+        ]
+    }
+]

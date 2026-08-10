@@ -1,0 +1,6 @@
+id,first_name,last_name,street_address,city,state,zipcode,dob
+CD123,Carol,Davis,789 Pine Rd,Bellevue,NE,68005,01-09-1978
+AJ123,Alice,Johnson,123 Maple St,Omaha,NE,68102,04-12-1985
+BS123,Bob,Smith,456 Oak Ave,Omaha,NE,68106,07-23-1990
+DM123,David,Miller,321 Birch Ln,La Vista,NE,68046,11-30-1982
+EW123,Eva,Wilson,654 Cedar Ct,La Vista,NE,68128,06-18-1995

@@ -1,0 +1,120 @@
+[
+    {
+        "date": "05/01/2026",
+        "meals": [
+            {
+                "description": "cereal",
+                "calories": 300,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "sandwich",
+                "calories": 500,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "stew",
+                "calories": 500,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "run",
+                "calories": 400,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "weight lifting",
+                "calories": 400,
+                "workout_type": "Strength"
+            }
+        ]
+    },
+    {
+        "date": "05/02/2026",
+        "meals": [
+            {
+                "description": "eggs",
+                "calories": 300,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "soup",
+                "calories": 300,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "steak",
+                "calories": 500,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "run",
+                "calories": 400,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "05/04/2026",
+        "meals": [
+            {
+                "description": "bacon and eggs",
+                "calories": 500,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "soup and sandwich",
+                "calories": 400,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "steak",
+                "calories": 500,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "hike",
+                "calories": 300,
+                "workout_type": "Cardio"
+            }
+        ]
+    },
+    {
+        "date": "05/05/2026",
+        "meals": [
+            {
+                "description": "bacon and eggs",
+                "calories": 500,
+                "meal_type": "Breakfast"
+            },
+            {
+                "description": "soup and sandwich",
+                "calories": 400,
+                "meal_type": "Lunch"
+            },
+            {
+                "description": "steak",
+                "calories": 500,
+                "meal_type": "Dinner"
+            }
+        ],
+        "workouts": [
+            {
+                "description": "hike",
+                "calories": 300,
+                "workout_type": "Cardio"
+            },
+            {
+                "description": "weight lifting",
+                "calories": 400,
+                "workout_type": "Strength"
+            }
+        ]
+    }
+]
