@@ -32,9 +32,6 @@ def main():
     # TODO: You need to make this system file loop for the menu until they exit.
     # print menu - We will be adding to these as we go throughout the course
 
-    # main_choice_list = ["Add Meal", "Add Workout", "Search Date", "Modify Meal", "Delete Meal",
-    #                     "Modify Workout", "Delete Workout", "Filter By Date", "Load In From XML", "Load In From JSON",
-    #                     "Export To JSON", "Create CSV Report", "Exit"]
 
     main_choice_list = ["Add Meal", "Add Workout", "Search Date", "Modify Meal", "Delete Meal",
                         "Modify Workout", "Delete Workout", "Filter By Date", "Load In From XML",
@@ -55,35 +52,6 @@ def main():
         if choice is None or choice > main_choice_list_len:
             print("\n### Error - Value Entered Must be Between 1 and " + str(main_choice_list_len) + " ###")
         else:
-
-            # match choice:
-            #     case 1:
-            #         add_meal()
-            #     case 2:
-            #         add_workout()
-            #     case 3:
-            #         search_date()
-            #     case 4:
-            #         update_calorie_element("Meal")
-            #     case 5:
-            #         delete_element("Meal")
-            #     case 6:
-            #         update_calorie_element("Workout")
-            #     case 7:
-            #         delete_element("Workout")
-            #     case 8:
-            #         filter_by_date()
-            #     case 9:
-            #         read_xml_file()
-            #     case 10:
-            #         read_json_file()
-            #     case 11:
-            #         write_out_json()
-            #     case 12:
-            #         print("\n### Export Data To CSV File ###")
-            #         write_out_report()
-            #     case 13:
-            #         print("\nSystem Exiting...")
 
             match choice:
                 case 1:
